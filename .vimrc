@@ -50,6 +50,7 @@ set cursorline
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " change directory to the current buffer's file's directory
 autocmd BufEnter * lcd %:p:h
