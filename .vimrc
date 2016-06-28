@@ -22,6 +22,8 @@ Plugin 'nono/jquery.vim'
 Plugin 'burnettk/vim-angular'
 Plugin 'othree/html5.vim'
 Plugin 'groenewege/vim-less'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
