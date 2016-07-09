@@ -23,6 +23,9 @@ Plugin 'burnettk/vim-angular'
 Plugin 'othree/html5.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-rails'
+Plugin 'yggdroot/indentline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
 Plugin 'vim-ruby/vim-ruby'
 
 " All of your Plugins must be added before the following line
@@ -72,4 +75,9 @@ let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 " set the pdf viewer
 let g:Tex_ViewRule_pdf='evince'
+
+" NERDTree settings
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 
