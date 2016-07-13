@@ -43,7 +43,7 @@ set nu
 set nocompatible
 
 " tab settings
-set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set guioptions-=T
 set nohlsearch
 set incsearch
@@ -53,10 +53,7 @@ set listchars=tab:→\ ,trail:.
 set list
 set cursorline
 
-autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
-autocmd FileType css setlocal shiftwidth=2 tabstop=2
-autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
+autocmd FileType php setlocal shiftwidth=4 tabstop=4
 
 " change directory to the current buffer's file's directory
 autocmd BufEnter * lcd %:p:h
@@ -82,3 +79,5 @@ let g:NERDTreeDirArrows = 1
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
+" indentLine settings
+let g:indentLine_color_term = 239
