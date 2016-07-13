@@ -27,7 +27,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'yggdroot/indentline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-ruby/vim-ruby'
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
