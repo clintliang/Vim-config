@@ -28,6 +28,7 @@ Plugin 'yggdroot/indentline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'Yggdroot/indentLine'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,6 +42,9 @@ set autoindent
 "set smartindent
 set nu
 set nocompatible
+
+" backspace over everything in insert mode
+set backspace=indent,eol,start
 
 " tab settings
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
