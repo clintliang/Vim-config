@@ -4,7 +4,7 @@
 1. Download
 
   ```
-  git git@github.com:clintliang/Vim-config.git
+  git clone git@github.com:clintliang/Vim-config.git
   ```
 2. Install Vundle
 
