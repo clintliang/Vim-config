@@ -86,4 +86,4 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 " indentLine settings
 let g:indentLine_color_term = 239
 " for jsx syntax
-let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
