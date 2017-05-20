@@ -30,6 +30,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'Yggdroot/indentLine'
 Plugin 'mxw/vim-jsx'
 Plugin 'nono/vim-handlebars'
+Plugin 'heavenshell/vim-jsdoc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -88,3 +89,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 let g:indentLine_color_term = 239
 " for jsx syntax
 let g:syntastic_javascript_checkers = ['eslint']
+
+" JsDoc
+let g:jsdoc_input_description = 1
+let g:jsdoc_enable_es6 = 1
