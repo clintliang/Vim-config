@@ -31,6 +31,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'mxw/vim-jsx'
 Plugin 'nono/vim-handlebars'
 Plugin 'heavenshell/vim-jsdoc'
+Plugin 'mustache/vim-mustache-handlebars'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
